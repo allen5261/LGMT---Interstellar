@@ -184,7 +184,7 @@ justification=justified]{caption}
 %	ADs
 %---------------------------------------------------------------------- 
 \newcommand{\ADxinhangdao}{
-    \noindent\includegraphics[height=1cm]{Interstellar/ADs/xhd.jpg}\hfill\includegraphics[height=2cm]{Interstellar/ADs/QRxhd.jpg}
+    \noindent\includegraphics[height=1cm]{ADs/xhd.jpg}\hfill\includegraphics[height=2cm]{ADs/QRxhd.jpg}
 
     \vskip-1.2cm
     {\centering\small\sffamily 新航道青岛学校 托福\ 雅思\ SAT\ AP\ 留学申请
@@ -192,7 +192,7 @@ justification=justified]{caption}
     \centering 电话：152 5329 0365赵老师\ 更多信息请扫描二维码\vskip0cm}
 }
 \newcommand{\ADyixuehui}{
-    \noindent\includegraphics[height=1cm]{Interstellar/ADs/yxh.jpg}\hfill\includegraphics[height=2cm]{Interstellar/ADs/QRyxh.jpg}
+    \noindent\includegraphics[height=1cm]{ADs/yxh.jpg}\hfill\includegraphics[height=2cm]{ADs/QRyxh.jpg}
 
     \vskip-1.2cm
     {\centering\small\sffamily 自招、综招、高考志愿填报， 顶级专家一对一指导 
@@ -201,7 +201,7 @@ justification=justified]{caption}
     \centering 电话：0532-58724592\ 地址：市南区东海西路凯旋大厦A座8楼B\vskip0cm}
 }
 \newcommand{\ADhairui}{
-    \noindent\includegraphics[height=1cm]{Interstellar/ADs/hr.jpg}\hfill\includegraphics[height=2cm]{Interstellar/ADs/QRhr.jpg}
+    \noindent\includegraphics[height=1cm]{ADs/hr.jpg}\hfill\includegraphics[height=2cm]{ADs/QRhr.jpg}
 
     \vskip-1.2cm
     {\centering\small\sffamily 山东海瑞教育咨询有限公司， 独家央企合作，权威综招培训
