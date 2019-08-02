@@ -11,9 +11,17 @@ Template Rebuilder:SINO8183 (allen5261@foxmail.com)
 
 # 在线排版地址：[https://cn.overleaf.com/6332164913qdsrnmrvrgwr](https://cn.overleaf.com/6332164913qdsrnmrvrgwr)
 
+# 为什么用LaTeX？
+
+LaTeX是一为高质量排版应运而生文件准备系统。它经常被用于中等到高等规模的科学或技术文档的排版，不过它基本可以满足你任何形式的出版需求。
+
+LaTeX并不是一个文字处理软件，相反它的初衷是解决写作人员对复杂排版的担忧，而使得他们能够专心于文本内容的正确与否。
+
+Word通常（注意，是通常，而不是绝对）把文档的内容、形式和结构混为一谈，而LaTeX可以很好地把这三者分开。LaTeX提升了使用者对灵活性的把握门槛，一般来说，也就比较容易达到预设的专业出版级的效果。
+
 
 # 排版方式
-1. 把根目录下的```main.tex__中第76行的内容改为```\input{Monthly/期数.tex}```
+1. 把根目录下的```main.tex```中第76行的内容改为```\input{Monthly/期数.tex}```
 2. 在```/Monthly```目录下新建一个```期数.tex```文件。
 3. 使用```\makeheading{文章标题}```命令来生成标题。
 4. 使用```\begin{multicols}{2}```和```\end{multicols}```把这篇文章包起来，如：
