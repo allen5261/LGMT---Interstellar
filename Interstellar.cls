@@ -123,6 +123,16 @@ justification=justified]{caption}
 \titlespacing*{\subsubsection}{0pc}{2ex \@plus2.5pt \@minus1.5pt}{0pt}
 \titlespacing*{\paragraph}{0pc}{1.5ex \@plus2pt \@minus1pt}{10pt}
 
+\newcommand{\greybox}[1]{
+\vskip25pt
+\noindent\fcolorbox{color1}{white}{%
+\parbox{\textwidth-2\fboxsep-2\fboxrule}{%
+\colorbox{color2!10}{%
+\parbox{\textwidth-4\fboxsep-2\fboxrule}{\centering%
+\parbox{\textwidth-2\fboxsep-2\fboxrule-50pt}{%
+#1
+\vskip25pt}}}}}}
+
 %----------------------------------------------------------------------
 %	TABLEOFCONTENTS SET-UP
 %----------------------------------------------------------------------
@@ -183,7 +193,7 @@ justification=justified]{caption}
 %----------------------------------------------------------------------
 %	ADs
 %---------------------------------------------------------------------- 
-\newcommand{\ADxinhangdao}{
+\newcommand{\ADxinhangdao}{\vfill
     \noindent\includegraphics[height=1cm]{ADs/xhd.jpg}\hfill\includegraphics[height=2cm]{ADs/QRxhd.jpg}
 
     \vskip-1.2cm
@@ -191,7 +201,7 @@ justification=justified]{caption}
     
     \centering 电话：152 5329 0365赵老师\ 更多信息请扫描二维码\vskip0cm}
 }
-\newcommand{\ADyixuehui}{
+\newcommand{\ADyixuehui}{\vfill
     \noindent\includegraphics[height=1cm]{ADs/yxh.jpg}\hfill\includegraphics[height=2cm]{ADs/QRyxh.jpg}
 
     \vskip-1.2cm
@@ -200,7 +210,7 @@ justification=justified]{caption}
     
     \centering 电话：0532-58724592\ 地址：市南区东海西路凯旋大厦A座8楼B\vskip0cm}
 }
-\newcommand{\ADhairui}{
+\newcommand{\ADhairui}{\vfill
     \noindent\includegraphics[height=1cm]{ADs/hr.jpg}\hfill\includegraphics[height=2cm]{ADs/QRhr.jpg}
 
     \vskip-1.2cm
