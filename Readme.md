@@ -27,7 +27,7 @@ Template Rebuilder:
 SINO8183 (allen5261@foxmail.com)
 
 
-
+# 在线排版地址：[https://cn.overleaf.com/6332164913qdsrnmrvrgwr]{https://cn.overleaf.com/6332164913qdsrnmrvrgwr}
 
 
 # 排版方式
@@ -61,7 +61,9 @@ SINO8183 (allen5261@foxmail.com)
 ```
 \makeheading{我是第一篇文章的标题}
 \begin{multicols}{2}
-    这是一篇文章，它会教你排版。看到上面的begin命令了吗？这是开始进行双栏排版的标志。到了该分段的时候，我们要在两段之间插入一个空行。
+    这是一篇文章，它会教你排版。我已经为Interstellar写好了一份文档模板，你只要按照上面的排版流程新建文件就可以了。下面的文字会教你详细的LaTeX排版方式。
+    
+    看到上面的begin命令了吗？这是开始进行双栏排版的标志。到了该分段的时候，我们要在两段之间插入一个空行。
     
     看到了吗？上面有一个空行，我们成功地分了段！系统会自动帮你加开段的空格！
     
