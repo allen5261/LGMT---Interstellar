@@ -1,33 +1,15 @@
-
-
-Qingdao No.2 Middle School
-
-2018 Physics And Technology MT
-
-Interstellar Journal
-
-
-
-LaTeX Template
+Qingdao No.2 Middle School 2018 Physics And Technology MT Interstellar Journal's LaTeX Template
 
 Version 1.0
 
-Release 2019.07.27
+Released at 2019.07.27
+
+Original author:Mathias Legrand (legrand.mathias@gmail.com) 
+
+Template Rebuilder:SINO8183 (allen5261@foxmail.com)
 
 
-
-Original author:
-
-Mathias Legrand (legrand.mathias@gmail.com) 
-
-
-
-Template Rebuilder:
-
-SINO8183 (allen5261@foxmail.com)
-
-
-# 在线排版地址：[https://cn.overleaf.com/6332164913qdsrnmrvrgwr]{https://cn.overleaf.com/6332164913qdsrnmrvrgwr}
+# 在线排版地址：[https://cn.overleaf.com/6332164913qdsrnmrvrgwr](https://cn.overleaf.com/6332164913qdsrnmrvrgwr)
 
 
 # 排版方式
