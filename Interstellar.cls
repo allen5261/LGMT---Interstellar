@@ -39,7 +39,7 @@
 %	VARIOUS USEFUL PACKAGES
 %----------------------------------------------------------------------
 
-\RequirePackage[utf8]{inputenc}
+\RequirePackage{inputenc}
 \RequirePackage{amsmath,amsfonts,amssymb}
 \RequirePackage{graphicx,xcolor}
 \RequirePackage{booktabs}
@@ -93,13 +93,13 @@ justification=justified]{caption}
   {\color{color1}\large\sffamily\bfseries}
   {}
   {0em}
-  {\colorbox{color2!10}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\centering\arabic{section}. #1}}}
+  {\colorbox{color2!4}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\centering\arabic{section}. #1}}}
   []
 \titleformat{name=\section,numberless}
   {\color{color1}\large\sffamily\bfseries}
   {}
   {0em}
-  {\colorbox{color2!10}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\centering#1}}}
+  {\colorbox{color2!4}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\centering#1}}}
   []  
 \titleformat{\subsection}
   {\color{color1}\normalsize\sffamily\bfseries}
@@ -127,11 +127,12 @@ justification=justified]{caption}
 \vskip25pt
 \noindent\fcolorbox{color1}{white}{%
 \parbox{\textwidth-2\fboxsep-2\fboxrule}{%
-\colorbox{color2!10}{%
+\colorbox{color2!4}{%
 \parbox{\textwidth-4\fboxsep-2\fboxrule}{\centering%
 \parbox{\textwidth-2\fboxsep-2\fboxrule-50pt}{%
 #1
 \vskip25pt}}}}}}
+
 
 %----------------------------------------------------------------------
 %	TABLEOFCONTENTS SET-UP
@@ -197,7 +198,7 @@ justification=justified]{caption}
     \noindent\includegraphics[height=1cm]{ADs/xhd.jpg}\hfill\includegraphics[height=2cm]{ADs/QRxhd.jpg}
 
     \vskip-1.2cm
-    {\centering\small\sffamily 新航道青岛学校 托福\ 雅思\ SAT\ AP\ 留学申请
+    {\centering\small\sffamily 新航道青岛学校\ 托福\ 雅思\ SAT\ AP\ 留学申请
     
     \centering 电话：152 5329 0365赵老师\ 更多信息请扫描二维码\vskip0cm}
 }
