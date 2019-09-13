@@ -9,11 +9,11 @@ Original author:Mathias Legrand (legrand.mathias@gmail.com)
 Template Rebuilder:SINO8183 (allen5261@foxmail.com)
 
 
-# 在线排版地址：[https://cn.overleaf.com/6332164913qdsrnmrvrgwr](https://cn.overleaf.com/6332164913qdsrnmrvrgwr)
+# 在线排版请百度搜索Overleaf并登录下发的帐号，即可在项目库中看到项目
 
 # 为什么用LaTeX？
 
-LaTeX是一为高质量排版应运而生文件准备系统。它经常被用于中等到高等规模的科学或技术文档的排版，不过它基本可以满足你任何形式的出版需求。
+LaTeX是一为高质量排版应运而生的文件准备系统。它经常被用于中等到高等规模的科学或技术文档的排版，不过它基本可以满足你任何形式的出版需求。
 
 LaTeX并不是一个文字处理软件，相反它的初衷是解决写作人员对复杂排版的担忧，而使得他们能够专心于文本内容的正确与否。
 
