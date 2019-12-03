@@ -29,10 +29,11 @@
 %----------------------------------------------------------------------
 %	FONTS
 %----------------------------------------------------------------------
-
+\RequirePackage{ulem}
 \setCJKmainfont[BoldFont=Bold.otf, ItalicFont=emph.TTF]{Regular.otf}
 
 \newcommand{\qiangdiao}[1]{{\color{color1}\sffamily\bfseries#1}}
+\newcommand{\minidc}[1]{{\color{color1}{\uwave{#1}}}}
 
 
 %----------------------------------------------------------------------
@@ -64,6 +65,8 @@ labelsep=period,%
 justification=justified]{caption}
 \setlength{\abovecaptionskip}{0pt}
 \setlength{\belowcaptionskip}{0pt}
+
+\RequirePackage{mhchem}
 				
 %----------------------------------------------------------------------
 %	PAGE HEADER
@@ -133,6 +136,11 @@ justification=justified]{caption}
 #1
 \vskip25pt}}}}}}
 
+\newcommand{\greyboxNID}[1]{\vskip0.5ex
+\noindent\fcolorbox{color1}{color2!4}{%
+\parbox{\linewidth-2\fboxsep-2\fboxrule}{
+#1
+}}\vskip0.5ex}
 
 %----------------------------------------------------------------------
 %	TABLEOFCONTENTS SET-UP
@@ -175,7 +183,7 @@ justification=justified]{caption}
 %----------------------------------------------------------------------  
 
 \newcommand{\makeheading}[1]{%
-    \vskip50pt{\center\color{color1}\sffamily\bfseries\fontsize{20}{25}\selectfont #1\par}
+    \vskip50pt{\center\color{color1}\sffamily\bfseries\fontsize{20}{25}\selectfont #1\par\setcounter{figure}{0}}
 }
 
 %----------------------------------------------------------------------
