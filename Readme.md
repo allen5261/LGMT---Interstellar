@@ -141,3 +141,13 @@ Word通常（注意，是通常，而不是绝对）把文档的内容、形式�
     }
 }
 ```
+
+生成后的PDF文件长这个样：
+
+第一页：
+
+![](https://github.com/allen5261/LGMT---Interstellar/raw/master/ADs/Snipaste_2020-05-04_19-43-33.png)
+
+第二页：
+
+![](https://github.com/allen5261/LGMT---Interstellar/raw/master/ADs/Snipaste_2020-05-04_19-44-49.png)
