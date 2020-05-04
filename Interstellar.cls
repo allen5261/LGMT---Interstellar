@@ -11,7 +11,7 @@
 % Mathias Legrand (legrand.mathias@gmail.com) 
 %
 % Template Rebuilder:
-% SINO8183 (allen5261@foxmail.com)
+% Allen Wang (allen5261@foxmail.com)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -20,9 +20,9 @@
 \RequirePackage{ifthen}
 \RequirePackage{calc}
 \AtEndOfClass{\RequirePackage{microtype}}
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}}
 \ProcessOptions*
-\LoadClass{article}
+\LoadClass{extarticle}
 \RequirePackage{ctex}
 \RequirePackage{ifpdf}      % Needed to pick between latex and pdflatex
 
@@ -30,9 +30,12 @@
 %	FONTS
 %----------------------------------------------------------------------
 \RequirePackage{ulem}
-\setCJKmainfont[BoldFont=Bold.otf, ItalicFont=emph.TTF]{Regular.otf}
+\setCJKmainfont[BoldFont=Bold.otf, ItalicFont=emph.TTF, Mapping = fullwidth-stop]{Regular.otf}
 
-\newcommand{\qiangdiao}[1]{{\color{color1}\sffamily\bfseries#1}}
+\setCJKfamilyfont{fzks}{emph.TTF}
+\renewcommand{\kaishu}{\CJKfamily{fzks}}
+
+\newcommand{\qiangdiao}[1]{{\color{color1}\textsf{#1}}}
 \newcommand{\minidc}[1]{{\color{color1}{\uwave{#1}}}}
 
 
@@ -44,6 +47,7 @@
 \RequirePackage{amsmath,amsfonts,amssymb}
 \RequirePackage{graphicx,xcolor}
 \RequirePackage{booktabs}
+\RequirePackage{indentfirst}
 
 %----------------------------------------------------------------------
 %	MARGINS	
@@ -67,6 +71,7 @@ justification=justified]{caption}
 \setlength{\belowcaptionskip}{0pt}
 
 \RequirePackage{mhchem}
+\RequirePackage{booktabs}
 				
 %----------------------------------------------------------------------
 %	PAGE HEADER
@@ -142,6 +147,8 @@ justification=justified]{caption}
 #1
 }}\vskip0.5ex}
 
+\renewcommand{\columnseprule}{0.3pt}
+
 %----------------------------------------------------------------------
 %	TABLEOFCONTENTS SET-UP
 %----------------------------------------------------------------------
@@ -183,7 +190,7 @@ justification=justified]{caption}
 %----------------------------------------------------------------------  
 
 \newcommand{\makeheading}[1]{%
-    \vskip50pt{\center\color{color1}\sffamily\bfseries\fontsize{20}{25}\selectfont #1\par\setcounter{figure}{0}}
+    \vskip50pt{\center\color{color1}\sffamily\bfseries\Huge\selectfont #1\par\setcounter{figure}{0}}
 }
 
 %----------------------------------------------------------------------
@@ -203,27 +210,29 @@ justification=justified]{caption}
 %	ADs
 %---------------------------------------------------------------------- 
 \newcommand{\ADxinhangdao}{\vfill
-    \noindent\includegraphics[height=1cm]{ADs/xhd.jpg}\hfill\includegraphics[height=2cm]{ADs/QRxhd.jpg}
+    \noindent\includegraphics[height=0.8cm]{ADs/xhd.jpg}\hfill\includegraphics[height=1.2cm]{ADs/QRxhd.jpg}
 
-    \vskip-1.2cm
+    \vskip-0.9cm
     {\centering\small\sffamily 新航道青岛学校\ 托福\ 雅思\ SAT\ AP\ 留学申请
     
     \centering 电话：152 5329 0365赵老师\ 更多信息请扫描二维码\vskip0cm}
 }
 \newcommand{\ADyixuehui}{\vfill
-    \noindent\includegraphics[height=1cm]{ADs/yxh.jpg}\hfill\includegraphics[height=2cm]{ADs/QRyxh.jpg}
+    \noindent\includegraphics[height=0.8cm]{ADs/yxh.jpg}\hfill\includegraphics[height=1.2cm]{ADs/QRyxh.jpg}
 
-    \vskip-1.2cm
+    \vskip-0.9cm
     {\centering\small\sffamily 自招、综招、高考志愿填报， 顶级专家一对一指导 
     
     
     \centering 电话：0532-58724592\ 地址：市南区东海西路凯旋大厦A座8楼B\vskip0cm}
 }
 \newcommand{\ADhairui}{\vfill
-    \noindent\includegraphics[height=1cm]{ADs/hr.jpg}\hfill\includegraphics[height=2cm]{ADs/QRhr.jpg}
+    \noindent\includegraphics[height=0.8cm]{ADs/hr.jpg}\hfill\includegraphics[height=1.2cm]{ADs/QRhr.jpg}
 
-    \vskip-1.2cm
+    \vskip-0.9cm
     {\centering\small\sffamily 山东海瑞教育咨询有限公司， 独家央企合作，权威综招培训
     
     \centering 电话：0532-55795579\ 地址：崂山区海尔路61号天宝国际银座2711\vskip0cm}
 }
+
+\newcommand{\EOA}{\hskip-0.3em\includegraphics[height=0.8em]{ADs/LG.png}}
