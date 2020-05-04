@@ -146,8 +146,11 @@ Word通常（注意，是通常，而不是绝对）把文档的内容、形式�
 
 第一页：
 
-![](https://github.com/allen5261/LGMT---Interstellar/raw/master/ADs/Snipaste_2020-05-04_19-43-33.png)
+![Snipaste_2020-05-04_19-44-49.png](https://i.loli.net/2020/05/04/NA3XDchI7iSTvRl.png)
 
 第二页：
 
-![](https://github.com/allen5261/LGMT---Interstellar/raw/master/ADs/Snipaste_2020-05-04_19-44-49.png)
+
+![Snipaste_2020-05-04_19-43-33.png](https://i.loli.net/2020/05/04/2ZWsgXd5cALyG1q.png)
+
+
