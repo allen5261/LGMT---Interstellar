@@ -24,9 +24,9 @@ Word通常（注意，是通常，而不是绝对）把文档的内容、形式�
 1. 把根目录下的```main.tex```中第76行的内容改为```\input{Monthly/期数.tex}```
 2. 在```/Monthly```目录下新建一个```期数.tex```文件。
 3. 使用```\makeheading{文章标题}```命令来生成标题。
-4. 使用```\begin{multicols}{2}```和```\end{multicols}```把这篇文章包起来，如：
+4. 使用```\begin{multicols}{3}```和```\end{multicols}```把这篇文章包起来，如：
 ```
-\begin{multicols}{2}
+\begin{multicols}{3}
     这是一篇文章
 \end{multicols}
 ```
@@ -50,7 +50,7 @@ Word通常（注意，是通常，而不是绝对）把文档的内容、形式�
 # 代码示例
 ```
 \makeheading{我是第一篇文章的标题}
-\begin{multicols}{2}
+\begin{multicols}{3}
     这是一篇文章，它会教你排版。我已经为Interstellar写好了一份文档模板，你只要按照上面的排版流程新建文件就可以了。下面的文字会教你详细的LaTeX排版方式。
     
     看到上面的begin命令了吗？这是开始进行双栏排版的标志。到了该分段的时候，我们要在两段之间插入一个空行。
